@@ -1,0 +1,145 @@
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav.ml-auto .nav-item.active .nav-link {
+	padding-right: 60px;
+	
+}
+.container-fluid .navbar.navbar-expand-lg.navbar-light.bg-light .navbar-brand {
+	padding-left: 20px ;
+ 
+}
+
+ .btn.btn-primary {
+    width: 80px;
+    height: 40px;
+    margin-right: 30px;
+}
+
+/* .ul{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+} */
+
+.hero h1{
+ 
+  font-weight: 700;
+}
+
+.hero h3{
+  font-weight: 600;
+}
+
+.hero .bg-image {
+  background-image: url("images/sorasak-_UIN-pFfJ7c-unsplash.jpg") ;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+  opacity: 2;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .hero .bg-image {
+    background-size: contain;
+  }
+}
+  
+
+
+.header .card{
+	width: 250px;
+  min-height: 280px;
+	border-radius: 25px;
+  margin-left: 35px;
+	background-color: rgb(243, 243, 243);
+	transition: transform 0.2s;
+
+}
+
+.header,.courses ,.feedback{
+  background-color: rgb(223, 223, 223);
+}
+
+.card:hover{
+  transform: scale(1.05); 
+}
+.card-title{
+  text-align: center;
+  
+}
+
+
+
+
+.about p  , .services p{
+  line-height: 30px;
+}
+
+.about  .card{
+  width: 200px;
+  min-height: 250px;
+	border-radius: 20px;
+  margin-left: 35px;
+	background-color:rgb(249, 245, 245);
+	transition: transform 0.2s;
+}
+.about .card img{
+  width: 150px;
+  padding-left: 45px;
+  padding-top: 10px;
+}
+
+@media (max-width:567px){
+  .about .card{
+    margin-left: 65px;
+  }
+  
+}
+
+ .courses .card{
+  width: 300px;
+  border-radius: 30px;
+  margin-left: 30px;
+ }
+
+
+.feedback .card{
+  height: 300px;
+  border-radius: 15px;
+}
+
+.feedback .card img{
+
+  width: 150px;
+  /* padding-left: 45px; */
+  padding-top: 10px;
+ 
+}
+
+.FAQ a ,.header a{
+  text-decoration: none;
+  color: black;
+  /* font-weight: 700; */
+}
+
+.footer , .top{
+  background-color: rgb(38, 37, 37);
+  color: white;
+ 
+}
+
+.icons i {
+  margin: 15px;
+  font-size: 30px;
+  cursor: pointer; /* Adjust the size as needed */
+}
+
+.top i{
+
+  font-size: 18px;
+  cursor: pointer;
+}
